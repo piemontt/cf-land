@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='/css/slick.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='/css/jquery.fancybox.min.css' ) }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+	<title>
+		Сайтик-лендинг для курса по питону
+	</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>
+				Заголовок, какой то
+			</h1>
+			<div class="content">	
+				<input type="text" id="input1"> 
+				<input type="text" id="input2"> 
+				<button onclick="sendData()">Send Data</button> 
+				<button onclick="sendDataDelete()">Delete</button> 
+				<div id="output"></div> 
+			</div>
+		</div>
+	</header>
+	<main>
+	
+	</main>
+	<footer>
+		
+	</footer>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.7.1.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.matchHeight-min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/functions.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.fancybox.min.js') }}"></script>
+</body>
+</html>
